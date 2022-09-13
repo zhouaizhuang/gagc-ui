@@ -1,11 +1,11 @@
 <template>
-  <div class="card-box" style="width:270px;box-shadow: 0 6px 10px rgba(95, 101, 105,.15);border:1px solid #ccc;">
-    <div class="">123</div>
+  <div class="rds8r bgf ovh pb8" style="width:270px;box-shadow: 0 6px 10px rgba(95, 101, 105,.15);border:1px solid #ccc;">
+    <div class="">Demo</div>
   </div>
 </template>
 <script>
 export default {
-  name: 'Card',
+  name: 'Demo',
   props: {
     width: {
       type: Number,
