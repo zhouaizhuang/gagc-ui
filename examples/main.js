@@ -5,7 +5,14 @@
  * @第3步 调整package.json中的第三行version字段的版本号 + 1
  * @第4步 npm login登录npm帐号
  * @第5步 npm publish
- * @第6步 安装新版本测试 cnpm i gagc@最新版本号
+ */
+/**
+ * 如何测试UI组件库
+ * @本地测试 采用下面提到的：全局引入或者按需引入方式即可
+ * @npm发布后测试 
+ * @第1步 先修改本地的package.json中name为demo（因为包名称不能和所需要下载的包名相同，否则报错）
+ * @第2步 cnpm i gagc@最新版本号 
+ * @第3步 使用全局引入和按需引入分别测试
  */
 import Vue from 'vue'
 import App from './App.vue'
@@ -41,7 +48,6 @@ import App from './App.vue'
 // Vue.use(Demo)
 // Vue.use(Card)
 Vue.config.productionTip = false
-
 new Vue({
   render: h => h(App),
 }).$mount('#app')
