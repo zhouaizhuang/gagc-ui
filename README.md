@@ -14,7 +14,9 @@
   Vue.use(GAGCUI)
   // 按需引用
   import 'gagc-ui/dist/css/demo.css'
-  import { Demo } from "gagc-ui"
+  import 'gagc-ui/dist/css/card.css'
+  import { Demo, Card } from "gagc-ui"
   Vue.use(Demo)
+  Vue.use(Card)
 ```
 
