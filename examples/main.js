@@ -11,7 +11,7 @@
  * @本地测试 采用下面提到的：全局引入或者按需引入方式即可
  * @npm发布后测试 
  * @第1步 先修改本地的package.json中name为demo（因为包名称不能和所需要下载的包名相同，否则报错）
- * @第2步 cnpm i gagc@最新版本号 
+ * @第2步 cnpm i gagc-ui@最新版本号   ----比如---->  cnpm i gagc-ui@0.1.13
  * @第3步 使用全局引入和按需引入分别测试
  */
 import Vue from 'vue'
