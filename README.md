@@ -8,11 +8,11 @@
 ```
 #### 2、引用组件库
 ```javascript
-  // 全部引入
+  // 方式一：全部引入
   import 'gagc-ui/dist/css/index.css'
   import GAGCUI from 'gagc-ui'
   Vue.use(GAGCUI)
-  // 按需引用
+  // 方式二：按需引入
   import 'gagc-ui/dist/css/demo.css'
   import 'gagc-ui/dist/css/card.css'
   import { Demo, Card } from "gagc-ui"

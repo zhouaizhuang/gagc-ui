@@ -23,7 +23,7 @@
   2. config.js可以控制文档主题，侧边栏
   3. componentDocs文件夹中编写单个组件的文档
   4. components文件夹中放组件和样式，否则在md文档中无法使用相对应的组件
-  5. 修改完成之后，执行npm run deploy，可能需要输入密码（也就是新版token）。部署到https://zhouaizhuang.github.io/gagc-ui/  可以查看（可能存在最长20min的缓存）
+  5. 修改完成之后，在git bash中执行npm run deploy，可能需要输入密码（也就是新版token）。部署到https://zhouaizhuang.github.io/gagc-ui/  可以查看（可能存在最长20min的缓存）
 ## 线上测试UI组件库
   1. 在examples文件夹中，先修改本地的package.json中name为demo（因为包名称不能和所需要下载的包名相同，否则报错）
   2. cnpm i gagc-ui@最新版本号 ----比如---->  cnpm i gagc-ui@0.1.13
