@@ -1,5 +1,5 @@
 {
-  "name": "gagc-ui",
+  "name": "demo",
   "version": "0.1.13",
   "description": "gagc组件库",
   "main": "dist/index.umd.js",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "gagc-ui": "^0.1.12",
+    "gagc-ui": "^0.1.13",
     "vue": "^2.6.11"
   },
   "devDependencies": {
