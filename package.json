@@ -15,10 +15,10 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "buildCli": "vue-cli-service build",
+    "build": "npm run build:js && npm run build:css",
     "build:js": "webpack --config ./webpack.component.js",
-    "build:css": "npx gulp sass",
-    "buildComm": "npm run build:js && npm run build:css"
+    "build:css": "npx gulp sass"
   },
   "dependencies": {
     "core-js": "^3.6.5",
