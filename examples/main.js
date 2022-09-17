@@ -1,3 +1,6 @@
+import Vue from 'vue'
+import App from './App.vue'
+Vue.config.productionTip = false
 /**
  * 如何更新UI组件库版本
  * @第1步 修改组件需要调整的地方并上传代码
@@ -14,9 +17,6 @@
  * @第2步 cnpm i gagc-ui@最新版本号   ----比如---->  cnpm i gagc-ui@0.1.13
  * @第3步 使用全局引入和按需引入分别测试
  */
-import Vue from 'vue'
-import App from './App.vue'
-Vue.config.productionTip = false
 /*
  ******************************************************************************************
  *****************************************开发调试：本地调试方式**************************************
