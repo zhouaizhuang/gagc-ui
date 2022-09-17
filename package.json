@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build:js": "webpack --config ./webpack.component.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -15,6 +16,7 @@
     "@vue/cli-service": "~4.5.13",
     "node-sass": "^7.0.3",
     "sass-loader": "^5.0.1",
+    "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.11"
   }
 }
