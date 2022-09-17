@@ -16,13 +16,14 @@
  */
 import Vue from 'vue'
 import App from './App.vue'
+Vue.config.productionTip = false
 /*
  ******************************************************************************************
  *****************************************开发调试：本地调试方式**************************************
  ******************************************************************************************
 */
 // 1、全局引入
-// import "../components/css/index.css"
+// import "../components/css/index.scss"
 // import GAGCUI from '../components/lib/index.js'
 // Vue.use(GAGCUI)
 // 2、按需引入
@@ -38,16 +39,16 @@ import App from './App.vue'
  *****************************************************************************************
 */
 // 1、全局引入
-import 'gagc-ui/dist/css/index.css'
-import GAGCUI from 'gagc-ui'
-Vue.use(GAGCUI)
+// import 'gagc-ui/dist/css/index.css'
+// import GAGCUI from 'gagc-ui'
+// Vue.use(GAGCUI)
 // 2、按需引入
-// import 'gagc-ui/dist/css/demo.css'
-// import 'gagc-ui/dist/css/card.css'
-// import { Demo, Card } from "gagc-ui"
-// Vue.use(Demo)
-// Vue.use(Card)
-Vue.config.productionTip = false
+import 'gagc-ui/dist/css/demo.css'
+import 'gagc-ui/dist/css/card.css'
+import { Demo, Card } from "gagc-ui"
+Vue.use(Demo)
+Vue.use(Card)
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')

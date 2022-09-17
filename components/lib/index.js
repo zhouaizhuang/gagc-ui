@@ -1,5 +1,5 @@
-import Demo from "./demo/index.js"
-import Card from "./card/index.js"
+import Demo from "./Demo/index.js"
+import Card from "./Card/index.js"
 export { Demo, Card }
 
 const components = {

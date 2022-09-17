@@ -4,7 +4,7 @@
       <img :src="imgSrc" alt="img" />
     </div>
     <div v-if="summary" class="m-card-summary">
-      {{summary}}
+      {{summary}}---测试989
     </div>
     <div v-else class="m-card-summary">
       <slot></slot>
