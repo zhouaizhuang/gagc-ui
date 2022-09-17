@@ -1,11 +1,11 @@
 # Card
 卡片组件
 ### 示例
-<Card imgSrc="/b_sound.png" summary="asdasd"></Card>
+<Card imgSrc="/gagc-ui/b_sound.png" summary="asdasd"></Card>
 
 ### 代码
 ```html
-  <Card imgSrc="/b_sound.png" summary="asdasd"></Card>
+  <Card imgSrc="/gagc-ui/b_sound.png" summary="asdasd"></Card>
 ```
 ### Attributes
 | 参数  | 说明 | 类型 | 是否必要 | 默认值 |
