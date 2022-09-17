@@ -1,5 +1,5 @@
-import Demo from "./demo"
-import Card from "./Card"
+import Demo from "./demo/index.js"
+import Card from "./card/index.js"
 
 const components = {
   Demo,
