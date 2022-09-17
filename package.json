@@ -18,7 +18,9 @@
     "buildCli": "vue-cli-service build",
     "build": "npm run build:js && npm run build:css",
     "build:js": "webpack --config ./webpack.component.js",
-    "build:css": "npx gulp sass"
+    "build:css": "npx gulp sass",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -35,6 +37,7 @@
     "sass": "^1.54.9",
     "sass-loader": "^5.0.1",
     "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.9.7"
   }
 }
