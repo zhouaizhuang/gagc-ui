@@ -1,18 +1,19 @@
-# gagc-ui
+# demo-ui
 
-### 快速开始
-#### 1.安装组件库
-
-```bash
-npm i gagc-ui
+## Project setup
+```
+yarn install
 ```
 
-```javascript
-import "gagc-ui/dist/css/index.css"
-import GAGCUI from "gagc-ui"
-Vue.use(GAGCUI)
-// 按需引用
-import "gagc-ui/dist/css/demo.css"
-import { Demo } from "gagc-ui"
-Vue.use(Demo)
+### Compiles and hot-reloads for development
 ```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
