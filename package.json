@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:js": "webpack --config ./webpack.component.js"
+    "build:js": "webpack --config ./webpack.component.js",
+    "build:css": "npx gulp sass",
+    "buildComm": "npm run build:js && npm run build:css"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -14,7 +16,11 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.3",
+    "sass": "^1.54.9",
     "sass-loader": "^5.0.1",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.11"
