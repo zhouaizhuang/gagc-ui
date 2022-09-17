@@ -1,3 +1,4 @@
+// https://b23.tv/dlgPUU1
 import Vue from 'vue'
 import App from './App.vue'
 Vue.config.productionTip = false
