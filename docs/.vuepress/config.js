@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Mooc-UI',
+  title: 'gagc-ui',
   base: '/gagc-ui/',
   themeConfig: {
     nav: [
